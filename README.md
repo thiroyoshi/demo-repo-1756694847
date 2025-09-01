@@ -5,11 +5,11 @@
 ## ファイル一覧
 
 - README.md - このファイル
-- hello.js - サンプルのJavaScriptファイル
+- hello.js - JavaScriptファイル
 
 ## hello.jsの使い方
 
-hello.jsはNode.jsを使用してローカル環境のCLIから実行するサンプルスクリプトです。
+hello.jsはNode.jsを使用してローカル環境のCLIから実行するスクリプトです。
 
 ### 実行手順
 
