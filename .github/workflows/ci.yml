@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: チェックアウト
+        uses: actions/checkout@v4
+        
+      - name: メッセージを表示
+        run: echo "こんにちは"
+        
+      - name: 成功確認
+        run: echo "ワークフローが成功しました！"
